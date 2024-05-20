@@ -95,6 +95,6 @@
 `git commit -m "your text here"` — добавляет коммит с комментарием `your text here`  
 
 
-##История коммитов
+## История коммитов
 
 `git log`  
