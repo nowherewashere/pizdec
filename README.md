@@ -65,36 +65,36 @@
 ## Создание репозитория  
 
 
-`cd ~/dev/first-project` — перешли в нужную папку  
-`git init` — создали репозиторий  
+- `cd ~/dev/first-project` — перешли в нужную папку  
+- `git init` — создали репозиторий  
 
 
 ## Удаление репозитория  
 
 
-`cd ~/dev/first-project` — перешли в нужную папку  
-`rm -rf .git` — удалили подпапку .git   
+- `cd ~/dev/first-project` — перешли в нужную папку  
+- `rm -rf .git` — удалили подпапку .git   
 
 ## Проверить состояние репозитория  
 
 
-`git status`  
+- `git status`  
 
 
 ## Добавление файлов в репозиторий  
 
 
-`git add`  
-`git add --all` или `git add -A` — позволяет подготовить к сохранению все файлы в репозитории.  
+- `git add`  
+- `git add --all` или `git add -A` — позволяет подготовить к сохранению все файлы в репозитории.  
 
 
 ## Создание коммита  
 
 
-`git commit` 
-`git commit -m "your text here"` — добавляет коммит с комментарием `your text here`  
+- `git commit` 
+- `git commit -m "your text here"` — добавляет коммит с комментарием `your text here`  
 
 
 ## История коммитов
 
-`git log`  
+- `git log`  
