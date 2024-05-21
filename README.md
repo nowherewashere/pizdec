@@ -101,12 +101,11 @@
 - `git log`  
 
 
+# Жизненный цикл файла в Git  
 ```mermaid
-graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+graph LR
+B(staged + tracked) -- git commit --> C(tracked)
+C -- some changes --> D(modified)
+A(untracked) -- git add --> B
+D -- git add --> B
 ```
-
